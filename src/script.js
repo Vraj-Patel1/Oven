@@ -1,6 +1,6 @@
-// let dur = 30;
+let dur = 30;
 // let dur = sessionStorage.getItem("duration");
-let dur = sessionStorage.getItem("duration") * 60;
+// let dur = sessionStorage.getItem("duration") * 60;
 let durString = dur.toString();
 start_tracking = true;
 let newDur = durString.concat("s");
